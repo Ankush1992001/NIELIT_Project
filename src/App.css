@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Jost', sans-serif;
+}
+nav{
+    z-index: 10001 !important;
+}
+.graditentBg {
+    background: linear-gradient(99deg , #5961F9 10%, #EE9AE5 100%);
+}
+.highlightBg {
+    background: linear-gradient(99deg , #ffffff 0%, #5961f990 100%);
+}
+.lightBg {
+    background: linear-gradient(99deg , #ffffff 0%, #f159f981 100%);
+}
+.keyBg {
+    background: linear-gradient(10deg , #ee9ae680 0%, #5961f974 100%);
+}
+.keyBg1 {
+    background: linear-gradient(10deg , #5961f974 0%, #ee9ae680 100%);
+}

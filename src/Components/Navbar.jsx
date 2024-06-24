@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className='flex space-x-14 items-center'>
             <a className='text-xl font-semibold flex items-center space-x-6 text-primary' href="/">
               <a href="https://www.nielit.gov.in/haridwar/index.php" target="_blank">
-                <img src={nielitlogo} alt="" className='w-24 inline-block items-center' />
+                <img src={nielitlogo} alt="" className='w-28 p-2 inline-block items-center' />
               </a>
               <span>IT Application Engineer (B Level - IT) </span></a>
           </div>

@@ -198,7 +198,7 @@ const Recognitions = () => {
                                 </tbody>
                             </table>
                             <div className="container mx-auto mt-5">
-                                <h1 className="text-xl font-bold mb-4 border text-secondary" data-aos="flip-right">Any Two Elective from the following</h1>
+                                <h1 className="text-xl font-bold mb-4 border text-secondary" data-aos="flip-right">Any Two Electives from the following</h1>
                                 <table className="w-full table-auto" data-aos="flip-left">
                                     <tbody>
                                         {optionsub.map((item) => (

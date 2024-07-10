@@ -5,6 +5,7 @@ import Home from './Components/Home'
 import Key from './Components/Key'
 import Navbar from './Components/Navbar'
 import Recognitions from './Components/Recognitions'
+import OtherCourses from './Components/OtherCourses'
 import Jobprospects from './Components/jobprospects'
 import { useEffect } from 'react'
 import { FaCaretUp } from "react-icons/fa";
@@ -46,6 +47,7 @@ function App() {
       <Recognitions />
       <Fees />
       <Jobprospects />
+      <OtherCourses/>
       <About />
       <a href="https://wa.link/02818i" target='_blank'>
         <button

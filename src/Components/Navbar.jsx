@@ -34,12 +34,13 @@ const Navbar = () => {
           </div>
           {/* Showing Navitem using map */}
           <div className='flex space-x-14 items-center'>
-            <ul className='md:flex space-x-6 hidden'>
+            <ul className='md:flex space-x-6 mt-1 hidden'>
               <a href="https://www.nielit.gov.in/haridwar/index.php" target="_blank" className='block hover:text-gray-300 cursor-pointer'>Home</a>
               {
                 navItems.map(({ link, path }) => <Link activeClass='active' spy={true} smooth={true} offset={-100} key={link} to={path} className='block hover:text-gray-300 cursor-pointer'>{link}</Link>)
               }
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrdGfCxkBZUpML6RhMswdGcdcrmbJoU2onw8rAJOSZUFJYHg/viewform" target="_blank" className='block hover:text-gray-300 cursor-pointer'>Apply</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrdGfCxkBZUpML6RhMswdGcdcrmbJoU2onw8rAJOSZUFJYHg/viewform" target="_blank" className='block hover:text-gray-300 cursor-pointer'><button
+                className='py-1 -mt-1 px-6 bg-secondary text-white font-semibold rounded hover:bg-primary transition-all duration-300'>Apply</button></a>
             </ul>
           </div>
 

@@ -97,8 +97,8 @@ const Recognitions = () => {
                 <div className='md:w-2.5/4'>
                     <h2 className='md:text-5xl text-3xl font-bold text-secondary mb-5 leading-normal'>Most <span className='text-primary'> suitable</span> for</h2>
                     {/* <p className='text-tartiary text-lg mb-7 mt-4'><span className='text-primary text-xl'>•</span> Engineering graduates (other than IT/CS), who wish to make a breakthrough in IT field.</p> */}
-                    <p className='text-tartiary text-lg mb-7'><span className='text-primary text-xl'>•</span>	BCA/BSc (CS/IT) graduate who are looking for higher education.</p>
-                    <p className='text-tartiary text-lg mb-7'><span className='text-primary text-xl'>•</span>	NIELIT ‘A’ Level DOEACC Scheme with graduation.</p>
+                    <p className='text-tartiary text-lg mb-7'><span className='text-primary text-xl'>•</span>	BCA/BSc (CS/IT) graduates who are looking for a great career in IT industry.</p>
+                    <p className='text-tartiary text-lg mb-7'><span className='text-primary text-xl'>•</span>	NIELIT ‘A’ Level with graduation.</p>
                     <p className='text-tartiary text-lg mb-7'><span className='text-primary text-xl'>•</span>   PGDCA pass outs who wish to upgrade their education.</p>
                     {/* <p className='text-tartiary text-lg mb-7'><span className='text-primary text-xl'>•</span>	Working persons who wish to upgrade their IT qualification and knowledge for speedy career growth.</p> */}
                 </div>
